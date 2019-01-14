@@ -9,7 +9,7 @@ lname = gets.chomp
 
 puts 'Do you have a suffix? If not, type "No".'
 sufname = gets.chomp
-if sufname == 'Junior' 
+if sufname == 'Junior' or 'Senior'
     numletters = fname.length + mname.length + lname.length + sufname.length
     puts 'Did you know, there are ' + numletters.to_s + ' letters in your full name?'
     #sufname = gets.chomp
