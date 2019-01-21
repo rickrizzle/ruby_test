@@ -25,10 +25,10 @@ def  pick_an_orange
 end
 
 def one_year_passes
-    puts 'One year passes'
-    @age = @age + 1
-    @tall = @tall +1 
-    @fruit = 0
+puts 'One year passes'
+@age = @age + 1
+@tall = @tall +1 
+@fruit = 0
 
 if dead? 
     puts 'The Orange Tree dies.'
